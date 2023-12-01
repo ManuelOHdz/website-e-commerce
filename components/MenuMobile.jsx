@@ -10,12 +10,11 @@ const data = [
 ];
 
 const subMenuData = [
-  { id: 1, name: "Jordan", doc_count: 11 },
-  { id: 2, name: "Sneakers", doc_count: 8 },
-  { id: 3, name: "Running shoes", doc_count: 64 },
-  { id: 4, name: "Football shoes", doc_count: 107 },
+  { id: 1, name: "Caricaturas", doc_count: 11, href: "Caricaturas" },
+  { id: 2, name: "Abstractas", doc_count: 8, href: "Abstractas" },
+  { id: 3, name: "Arte", doc_count: 64, href: "Arte" },
+  { id: 4, name: "Otros", doc_count: 107, href: "Otros" },
 ];
-
 const MenuMobile = ({ showCatMenu, setShowCatMenu, setMobileMenu }) => {
   return (
     <ul className="flex flex-col md:hidden font-bold absolute top-[50px] left-0 w-full h-[calc(100vh-50px)] bg-white-mobile border-t text-black">
