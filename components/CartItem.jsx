@@ -7,7 +7,7 @@ const CartItem = () => {
     <div className='flex py-5 gap-3 md:gap-5 border-b'>
       {/*Empieza Imagen */ }
       <div className='shrink-0 aspect-square w-[50px] md:w-[120px]'>
-        <img src="/Case-spiderman.webp"/>
+        <img src="https://cdn-image02.casetify.com/usr/4787/34787/~v181/30895019x2_iphone-15-pro-max__color_natural-titanium_16005970.png.1000x1000-w.m80.webp"/>
       </div>
       {/*Termina Imagen */ }
       <div className='w-full flex flex-col'>
