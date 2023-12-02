@@ -4,7 +4,7 @@ import React from "react";
 const ProductCard = () => {
   return (
     <Link href="/product/1" className="transform overflow-hidden bg-white duration-200 hover:scale-105">
-      <img className="w-full" src="/case-spiderman.webp" alt="Product Image" />
+      <img className="w-full" src="/case-multi.webp" alt="Product Image" />
       <div className="p-4 text-black/[0.9]">
         <h2 className="text-lg font-medium">Nombre Del Producto</h2>
         <div className="flex items-center text-black/[0.5]">
